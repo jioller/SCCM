@@ -1,1 +1,1 @@
-# SCCM: System center Configuration Manager
+# SCCM: System Center Configuration Manager
