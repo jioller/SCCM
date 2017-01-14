@@ -1,0 +1,11 @@
+# Codigo para instalar iTunes desde Microsoft System Center Configuration Manager
+
+
+
+@echo off @echo Installing Apple Application Support start /wait msiexec /i
+AppleApplicationSupport.msi /quiet /passive /norestart @echo Installing Apple
+Mobile Device Support start /wait msiexec /i AppleMobileDeviceSupport.msi /quiet
+/passive /norestart @echo Installing AppleSoftwareUpdate start /wait msiexec /i
+AppleSoftwareUpdate.msi /quiet /passive /norestart @echo Installing Bonjour start
+/wait msiexec /i Bonjour.msi /quiet /passive /norestart @echo Installing itunes start
+/wait msiexec /i itunes.msi /quiet /passive /norestart exit
